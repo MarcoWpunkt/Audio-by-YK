@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('sources/textur_gruen_rosa.jpg');
+    background-repeat: repeat;
+    background-size: 500px 500px; /* Größe der Grafik anpassen */
+}
+
+/* Container für alle Audio-Elemente */
+.audio-container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Abstand zwischen den Audio-Elementen */
+}
+
+/* Stile für jedes Audio-Item */
+.audio-item {
+    background-color: rgba(143, 143, 143, 0.322);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile für das Audio-Element */
+audio {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Stile für den Text unter jedem Audio-Element */
+.audio-item p {
+    margin: 0;
+    font-size: 15px;
+    color: #181818;
+    text-align: right;
+}
