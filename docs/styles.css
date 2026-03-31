@@ -8,13 +8,17 @@ body {
     background-image: url('sources/bg4_green.png');
     background-repeat: repeat;
     background-size: 500px 500px; /* Größe der Grafik anpassen */
-    /* color: #0026ff; */
-    /* color: #ff0000; */
-    color: #000000;
     text-align: right;
+
+    color: #5900ff;
+    /* color: #ff0000; */
+    /* color: #000000; */
     font-family: 'Comic Sans MS', normal;
-    /* font-family: 'Courier New', Courier, monospace;
-    font-weight: bold; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bold;
+
+    /* color: #000000;
+    font-family: 'Arial', sans-serif; */
 }
 
 /* Container für alle Audio-Elemente */
