@@ -29,6 +29,7 @@ body {
 
 /* Stile für jedes Audio-Item */
 .audio-item {
+    min-width: 350px;
     background-color: rgba(143, 143, 143, 0.5);
     padding: 15px;
     border-radius: 8px;
